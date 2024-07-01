@@ -1,0 +1,102 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "b1",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "string",
+				"name": "strData",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "uVal",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "addr",
+				"type": "address"
+			},
+			{
+				"internalType": "bytes",
+				"name": "bts",
+				"type": "bytes"
+			}
+		],
+		"name": "encodeData",
+		"outputs": [
+			{
+				"internalType": "bytes",
+				"name": "",
+				"type": "bytes"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "s1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "u2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "b1",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "b2",
+						"type": "bytes"
+					}
+				],
+				"internalType": "struct DemoContract.TestStruct",
+				"name": "ts",
+				"type": "tuple"
+			},
+			{
+				"internalType": "address",
+				"name": "addr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "nonce",
+				"type": "uint256"
+			}
+		],
+		"name": "encodeData",
+		"outputs": [
+			{
+				"internalType": "bytes",
+				"name": "",
+				"type": "bytes"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"stateMutability": "pure",
+		"type": "function"
+	}
+]
